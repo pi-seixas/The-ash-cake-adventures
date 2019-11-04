@@ -8,11 +8,11 @@ Created on Wed Oct 30 11:18:14 2019
 def carregar_cenarios():
     cenarios = {
         "introdução": {
-            "titulo": "Saguao do perigo",
-            "descricao": "Voce esta no saguao de entrada do insper",
+            "titulo": "Ponte de controle da Nautilus",
+            "descricao": "Tudo parecia ok até que BOOOOOOOOOOOOM! A nave que a Nautilus estava escoltndo explode e cai no planeta abaixo levando a preciosa carga junto. O que você quer fazer capitão?",
             "opcoes": {
-                "andar professor": "Tomar o elevador para o andar do professor",
-                "biblioteca": "Ir para a biblioteca"
+                "ignorar": "Tomar o elevador para o andar do professor",
+                "enviar equipe de resgate": "Ir para a biblioteca"
             }
         },
         "andar professor": {
@@ -38,20 +38,25 @@ def carregar_cenarios():
             }
         }
     }
-    nome_cenario_atual = "inicio"
+    nome_cenario_atual = "introdução"
     return cenarios, nome_cenario_atual
 
 
 def main():
-    print("Na hora do sufoco!")
+    print("The ash cake adventures")
     print("------------------")
     print()
-    print("Parecia uma boa idéia: vou só jogar um pouquinho/assistir Netflix/"
-        "embaçar em geral. Amanhã eu começo o EP. Mas isso não deu certo...")
+    print("Voce esta observando o vasto vazio do espaço, sete anos de missão como Comandante da Nautillus," 
+          "levando uma carga desconhecida a um planeta novo."
+          "Tudo parecia bem, faltam apenas duas semanas para o fim desta viagem inacabável,"
+          "ou seja, nada pode dar errado.")
     print()
-    print("É o dia de entregar o EP e você está muuuuito atrasado! Você está "
-        "na entrada do Insper, e quer procurar o professor para pedir um "
-        "adiamento do EP (boa sorte...)")
+    print("O seu comunicador começa a apitar, ao acioná-lo, surge um holograma do sargento Diaz, "
+        "o oficial responsável pela Exploradora, a nave que você está escoltando, e que contém a tão"
+        "preciosa carga. O holograma está instável, e você não consegue entender uma palavra dita por Diaz,"
+        "quando BOOOOOOOOOOOOOOOOOOM a explosão soou pela sala de comando enquanto a tripulação pasma olhava "
+        "os restos da nave ewscoltada eram puxados pela atmosfera do plantea próximo, levando os tripulantes e a carga consigo..."
+        "O que você vai fazer Comandante?")
     print()
 
     cenarios, nome_cenario_atual = carregar_cenarios()
