@@ -25,7 +25,7 @@
                 "Ir procurar os tripulantes"
             ],
             "local": ["3"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "3" : {
             "historia": [
@@ -42,7 +42,7 @@
                 "Ir checar o suporte de vida"
             ],
             "local": ["4-A","5-A"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "4-A" : {
             "historia": [
@@ -60,7 +60,7 @@
             	"Cheque o suporte de vida!"
             ],
             "local": ["6","5-B"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "4-B" : {
             "historia": [
@@ -78,7 +78,7 @@
             	"Cheque o suporte de vida!"
             ],
             "local": ["6"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "5-A" : {
             "historia": [
@@ -92,7 +92,7 @@
             	"Cheque o motor!"
             ],
             "local": ["4-B","6"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "5-B" : {
             "historia": [
@@ -105,7 +105,7 @@
             	"Cheque o motor!"
             ],
             "local": ["6"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "6" : {
             "historia": [
@@ -117,7 +117,7 @@
             	"Vá pelos quartos!"
             ],
             "local": ["7", "10"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "7" : {
             "historia": [
@@ -131,7 +131,7 @@
                 "Corra!"
             ],
             "local": ["8", "9"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "8" : {
             "historia": [
@@ -144,7 +144,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "9" : {
             "historia": [
@@ -157,7 +157,7 @@
                 "Vá pelos quartos!"
             ],
             "local": ["10"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "10" : {
             "historia": [
@@ -171,7 +171,7 @@
                 "Outro jeito"
             ],
             "local": ["11","12"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "11" : {
             "historia": [
@@ -186,7 +186,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "12" : {
             "historia": [
@@ -202,7 +202,7 @@
                 "Fugir"
             ],
             "local": ["13","21"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "13" : {
             "historia": [
@@ -214,7 +214,7 @@
                 "Dormitórios"
             ],
             "local": ["14","18"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "14" : {
             "historia": [
@@ -231,7 +231,7 @@
             	"Comida"
             ],
             "local": ["15","16","17"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "15" : {
             "historia": [
@@ -242,7 +242,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "16" : {
             "historia": [
@@ -254,7 +254,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "17" : {
             "historia": [
@@ -278,7 +278,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "18" : {
             "historia": [
@@ -294,7 +294,7 @@
                 "Atire"
             ],
             "local": ["19","20"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "19" : {
             "historia": [
@@ -305,7 +305,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "20" : {
             "historia": [
@@ -317,7 +317,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "21" : {
             "historia": [
@@ -333,7 +333,7 @@
                 "distração"
             ],
             "local": ["22","23"],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "22" : {
             "historia": [
@@ -345,7 +345,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         },
         "23" : {
             "historia": [
@@ -360,7 +360,7 @@
             "pergunta": [
             ],
             "local": [""],
-            "background" : ""
+            "background" : "imagens/screen1.jpg"
         }
     },
     "tutorial" : "se vira ae parça", 
