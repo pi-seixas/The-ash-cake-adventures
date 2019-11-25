@@ -5,7 +5,7 @@ import json
 from components import components
 from screens import screens
 
-with open('history.json') as json_file:
+with open('history.json', encoding='utf-8') as json_file:
     history = json.load(json_file)
 
 pygame.init()
