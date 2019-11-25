@@ -1,0 +1,368 @@
+{ 
+    "gameScreens" : {
+        "1" : {
+            "historia": [
+                ">Intercom: Alguém aí? Aqui é da CRUZADORA, preciso de ajuda! Tivemos uma pane total, acho que fomos abordados!",
+                ">Você: CRUZADORA aqui é a BASE. Qual é o status da sua nave?",
+                ">Intercom: Fomos atingidos por um objeto não identificado. O motor parou, assim como o suporte de vida. Acho que tem alguma coisa na nave conosco.",
+                ">Você: Qual era a sua missão?",
+                ">Intercom: Estávamos escoltando uma carga de Vênus para a Terra quando fomos atingidos. Enviei meus dois tripulantes para investigar os danos, porém não consigo mais contactá-los.",
+                ">Você: O que era a sua carga?",
+                ">Intercom: Não sabemos, colocaram um container na nossa nave e nos disseram para não abrir e é isso. O que devo fazer?"
+            ],
+            "pergunta": [ 
+                "verificar as cameras de segurança", 
+                "ir procurar os tripulantes"
+            ],
+            "local": ["2","3"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "2" : {
+            "historia": [
+                ">Intercom: Ok! Boa ideia, vou ver se consigo ver eles pelas cameras ............ Não consigo ver nada! Todas as cameras estão danificadas ou desligadas!"
+            ],
+            "pergunta": [
+                "Ir procurar os tripulantes"
+            ],
+            "local": ["3"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "3" : {
+            "historia": [
+                ">Você: Tem algum armamento aí perto?",
+                ">Intercom: Eu tenho um blaster com 5 tiros... os tripulantes levaram o resto.",
+                ">Intercom: Vou atrás deles.",
+                "5 minutos depois",
+                ">Intercom: AAAAAAAAAAAAAAAh!",
+                ">Você: CRUZADORA está tudo bem?",
+                ">Intercom: encontrei meus tripulantes, ou o que restou deles. Parece que um animal os atacou! O que devo fazer?"
+            ],
+            "pergunta": [
+                "Ir checar a carga",
+                "Ir checar o suporte de vida"
+            ],
+            "local": ["4-A","5-A"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "4-A" : {
+            "historia": [
+                ">Você: Vá para o depósito de carga, cheque se a sua missão ainda pode ser cumprida.",
+                ">Intercom: Ok! Vou checar!",
+                "3 minutos depois",
+                ">Intercom: BASE está me ouvindo?",
+                ">Você: prossiga CRUZADORA",
+                ">Intercom: A carga... ela sumiu!",
+                ">Você: você acha que o intruso a roubou?",
+                ">Intercom: Não... Parece que o container foi estourado... de dentro pra fora... como se alguma coisa tivesse escapado. O que devo fazer?"
+            ],
+            "pergunta": [
+                "Cheque o motor!",
+            	"Cheque o suporte de vida!"
+            ],
+            "local": ["6","5-B"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "4-B" : {
+            "historia": [
+                ">Você: Vá para o depósito de carga, cheque se a sua missão ainda pode ser cumprida.",
+                ">Intercom: Ok! Vou checar!",
+                "3 minutos depois",
+                ">Intercom: BASE está me ouvindo?",
+                ">Você: prossiga CRUZADORA",
+                ">Intercom: A carga... ela sumiu!",
+                ">Você: você acha que o intruso a roubou?",
+                ">Intercom: Não... Parece que o container foi estourado... de dentro pra fora... como se alguma coisa tivesse escapado. O que devo fazer?"
+            ],
+            "pergunta": [
+                "Cheque o motor!",
+            	"Cheque o suporte de vida!"
+            ],
+            "local": ["6"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "5-A" : {
+            "historia": [
+                ">Você: Ok... Vá checar o suporte de vida. Assim que você o concertar, pelo menos vai ter uma chance de sair daí com vida.",
+                ">Intercom: Ok! Vou checar!",
+                "4 minutos depois",
+                ">Intercom: Consegui! Não sei quanto tempo isso vai aguentar, mas acho que consigo chegar na Terra com isso. O oxigênio voltou a fluir, e acho que o purificador de água vai aguentar o tranco. E agora?"
+            ],
+            "pergunta": [
+                "Vá checar a carga!",
+            	"Cheque o motor!"
+            ],
+            "local": ["4-B","6"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "5-B" : {
+            "historia": [
+                ">Você: Ok... Vá checar o suporte de vida. Assim que você o concertar, pelo menos vai ter uma chance de sair daí com vida.",
+                ">Intercom: Ok! Vou checar!",
+                "4 minutos depois",
+                ">Intercom: Consegui! Não sei quanto tempo isso vai aguentar, mas acho que consigo chegar na Terra com isso. O oxigênio voltou a fluir, e acho que o purificador de água vai aguentar o tranco. E agora?"
+            ],
+            "pergunta": [
+            	"Cheque o motor!"
+            ],
+            "local": ["6"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "6" : {
+            "historia": [
+                ">Você: Cheque o motor, quanto mais cedo ele estiver funcionando, mais rapido você vai chegar de volta em casa, onde vamos conseguir te ajudar melhor.",
+                ">Intercom: Ok! Tem dois caminhos para a sala do motor, um que passa pela cantina, e o outro, mais longo que vai pelos quartos. Qual caminho eu pego?"
+            ],
+            "pergunta": [
+                "Vá pela cantina!",
+            	"Vá pelos quartos!"
+            ],
+            "local": ["7", "10"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "7" : {
+            "historia": [
+                ">Você: A cantina me parece mais seguro",
+                ">Intercom: Faz sentido! Ja aproveito e consigo comida!",
+                "5 minutos depois",
+                ">Intercom: BASE... Acho que tem alguma coisa na cantina comigo..."
+            ],
+            "pergunta": [
+                "Abrir fogo!",
+                "Corra!"
+            ],
+            "local": ["8", "9"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "8" : {
+            "historia": [
+                ">Você:  Use o seu blaster!",
+                ">Intercom: Ok! Morraaa!!!",
+            	"Você ouve 5 disparos diferentes",
+            	">Intercom: AAAAAAAAAAh ESSA COISA NÃO MORRE!",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "9" : {
+            "historia": [
+                ">Você: Saia daí agora! Vá oelo outro caminho!",
+            	">Intercom: Meu Deus, essa coisa é enorme...",
+                ">Você ouve passos rápidos",
+                ">Intercom: ok... E agora?"
+            ],
+            "pergunta": [
+                "Vá pelos quartos!"
+            ],
+            "local": ["10"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "10" : {
+            "historia": [
+                ">Você: Vá pelos quartos.",
+                ">Intercom: Ok. Te aviso quando chegar lá.",
+                "8 minutos depois",
+                ">Intercom: Cheguei! Não dá pra ver nada! Tem muita fumaça!"
+            ],
+            "pergunta": [
+                "Tente entrar e avaliar os danos!",
+                "Outro jeito"
+            ],
+            "local": ["11","12"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "11" : {
+            "historia": [
+                ">Você: Não importa, entre e tente avaliar os danos ao motor!",
+                ">Intercom: Ok... me deseje sorte",
+                "5 minutos depois",
+                ">Você: Encontrou algo?",
+                ">Intercom: Acho que a mesma coisa que matou os meus tripulantes passou por aqui... Tem combústível pra todo o lado... Acho melh-",
+                "BOOOOOOOOOM",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "12" : {
+            "historia": [
+                ">Você: É normal esse volume de fumaça?",
+                ">Intercom: Não, alguma coisa deve ter parado de funcionar!",
+                ">Você: Não se arrisque. Existe algum outro jeito de fazer essa nave funcionar?",
+                ">Intercom: Não sem um motor...",
+                ">Você: E os seus pods de emergência?",
+                ">Intercom: Da última vez que chequei, ambos estavam funcionais."
+            ],
+            "pergunta": [
+                "Propulsão",
+                "Fugir"
+            ],
+            "local": ["13","21"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "13" : {
+            "historia": [
+                ">Você: Tente usar os motores dos pods para mover a nave!",
+                ">Intercom: Boa ideia! Mas para isso eu tenho que voltar para a ponte de comando... Qual caminho?"
+            ],
+            "pergunta": [
+                "Cantina",
+                "Dormitórios"
+            ],
+            "local": ["14","18"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "14" : {
+            "historia": [
+                ">Você: Volte pela cantina",
+                ">Intercom: Ok!",
+                "5 minutos depois",
+                ">Intercom: Estou chegando na ponte, consegui pegar algumas rações.",
+                ">Você: Bem pensado. Lembre-se: quando chegar lá, tranque a porta para que o que quer que seja que está andando pela sua nave não te alcance!",
+                ">Intercom: Tarde demais... BASE, tem uma coisa parada na porta..."
+            ],
+            "pergunta": [
+                "Corra",
+            	"Atire",
+            	"Comida"
+            ],
+            "local": ["15","16","17"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "15" : {
+            "historia": [
+                ">Você: Corra!",
+                ">Intercom: AAAAAAAAAAh",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "16" : {
+            "historia": [
+                ">Você: Atire!",
+                "Você ouve 5 disparos",
+                ">Intercom: AAAAAAAAAAh",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "17" : {
+            "historia": [
+                ">Você: Jogue a comida para o outro lado!",
+                "30 segundos depois",
+                ">Intercom: Funcionou! A porta está trancada...",
+                ">Você: O que era aquilo?",
+                ">Intercom: Eu não sei, nunca vi nada parecido... não sei se devo voltar pra terra com esta coisa a bordo.",
+                ">Você: Como assim?",
+                ">Intercom: Eu vi o que aquela coisa fez com a minha tripulação. Não vou deixar que façam isso com o resto do planeta!",
+                ">Você: O que você pretende fazer?",
+                ">Intercom: Eu voju sobrecarregar o motor, eu posso morrer, mas com certeza aqulio também vai!",
+                ">Você: você tem certeza qu esta é a sua única opção?",
+                ">Intercom: sim.",
+                ">Você: então, em nome de toda humanidade, eu te agradeço.",
+                ">Intercom: ... Adeus BASE",
+                ">Você: Adeus CRUZADORA",
+                "BOOOOOOOOOM",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "18" : {
+            "historia": [
+                ">Você: volte pelo mesmo caminho!",
+                ">Intercom: Ok!",
+                "8 minutos depois",
+                ">Intercom: Estou chegando na ponte.",
+                ">Você: Lembre-se: quando chegar lá, tranque a porta para que o que quer que seja que está andando pela sua nave não te alcance!",
+                ">Intercom: Tarde demais... BASE, tem uma coisa parada na porta..."
+            ],
+            "pergunta": [
+                "Corra",
+                "Atire"
+            ],
+            "local": ["19","20"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "19" : {
+            "historia": [
+                ">Você: Corra!",
+                ">Intercom: AAAAAAAAAAh",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "20" : {
+            "historia": [
+                ">Você: Atire!",
+                "Você ouve 5 disparos",
+                ">Intercom: AAAAAAAAAAh",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "21" : {
+            "historia": [
+                ">Você: Vá para os pods e saia da nave!",
+                ">Intercom: Eu não posso abandonar a CRUZADORA!",
+                ">Você: Se você quiser continuar viva, é o que vai ter que fazer.",
+                ">Intercom: ok... Estou indo para os pods.",
+                "7 minutos depois",
+                ">Intercom: BASE, cheguei, mas aquela coisa também. O que faço?"
+            ],
+            "pergunta": [
+                "abrir fogo",
+                "distração"
+            ],
+            "local": ["22","23"],
+            "background" : "imagens/screen1.jpg"
+        },
+        "22" : {
+            "historia": [
+                ">Você: Abra fogo!",
+                "Você ouve 5 disparos",
+                ">Intercom: AAAAAAAAAAh",
+                "Comunicação encerrada..."
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        },
+        "23" : {
+            "historia": [
+                ">Você: tente distraí-lo com seu blaster!",
+                ">Intercom: Você quer que eu atire nele?",
+                ">Você: Não! Acerte alguma coisa que vá fazer barulho e atrair o que você estava levando na carga, e te dê tempo para entrar num pod e ejetar!",
+                ">Intercom: ... Já sei!",
+                "Você ouve um disparo e um rugido sobrenatural",
+                ">Intercom: CONSEGUI! Ejetei o pod... Estou a caminho de casa. Obrigada BASE!",
+                ">Você: Boa viagem CRUZADORA!"
+            ],
+            "pergunta": [
+            ],
+            "local": [""],
+            "background" : "imagens/screen1.jpg"
+        }
+    },
+    "tutorial" : "se vira ae parça", 
+    "gameOver" : "GAME OVER"
+}
